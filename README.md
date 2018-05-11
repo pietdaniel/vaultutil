@@ -1,6 +1,6 @@
 # vaultutil
 
-This is a go package to make it easier to interact with vault from with Kubernetes.
+This is a Go package to make it easier to interact with vault from within Kubernetes. 
 
 ## Usage
 
