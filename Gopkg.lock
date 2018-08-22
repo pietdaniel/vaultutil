@@ -3,42 +3,63 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:9413ddbde906f91f062fda0dfa9a7cff43458cd1b2282c0fa25c61d89300b116"
   name = "github.com/golang/snappy"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "553a641470496b2327abcac10b36396bd98e45c9"
 
 [[projects]]
   branch = "master"
+  digest = "1:f0d9d74edbd40fdeada436d5ac9cb5197407899af3fef85ff0137077ffe8ae19"
   name = "github.com/hashicorp/errwrap"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "7554cd9344cec97297fa6649b055a8c98c2a1e55"
 
 [[projects]]
   branch = "master"
+  digest = "1:a5d940c38bf56f121721bfa747c66356df387cb9d5318c570c6d4170aab62862"
   name = "github.com/hashicorp/go-cleanhttp"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "d5fe4b57a186c716b0e00b8c301cbd9b4182694d"
 
 [[projects]]
   branch = "master"
+  digest = "1:4d55897d00e9b53c1c716e8fe504de3d21bec8edba0a330bfaa87902695e46e2"
   name = "github.com/hashicorp/go-multierror"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "b7773ae218740a7be65057fc60b366a49b538a44"
 
 [[projects]]
   branch = "master"
+  digest = "1:f299bf12387ef9e1e36571851c4bb2c5024b5e66d16cfa77b220ad488b47d196"
+  name = "github.com/hashicorp/go-retryablehttp"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "e651d75abec6fbd4f2c09508f72ae7af8a8b7171"
+
+[[projects]]
+  branch = "master"
+  digest = "1:cdb5ce76cd7af19e3d2d5ba9b6458a2ee804f0d376711215dd3df5f51100d423"
   name = "github.com/hashicorp/go-rootcerts"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "6bb64b370b90e7ef1fa532be9e591a81c3493e00"
 
 [[projects]]
   branch = "master"
+  digest = "1:ab128c55634eb166f6ab170896ac0f53979992250811071938d6bf2af7034690"
   name = "github.com/hashicorp/go-sockaddr"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "6d291a969b86c4b633730bfc6b8b9d64c3aafed9"
 
 [[projects]]
   branch = "master"
+  digest = "1:39f543569bf189e228c84a294c50aca8ea56c82b3d9df5c9b788249907d7049a"
   name = "github.com/hashicorp/hcl"
   packages = [
     ".",
@@ -49,64 +70,74 @@
     "hcl/token",
     "json/parser",
     "json/scanner",
-    "json/token"
+    "json/token",
   ]
+  pruneopts = "NUT"
   revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
 
 [[projects]]
+  digest = "1:31e20c290aaed8b03e36350241a9f862e4fd53d11780a41d231771ace9a1be03"
   name = "github.com/hashicorp/vault"
   packages = [
     "api",
     "helper/compressutil",
+    "helper/hclutil",
     "helper/jsonutil",
     "helper/parseutil",
-    "helper/strutil"
+    "helper/strutil",
   ]
-  revision = "756fdc4587350daf1c65b93647b2cc31a6f119cd"
-  version = "v0.10.1"
+  pruneopts = "NUT"
+  revision = "e21712a687889de1125e0a12a980420b1a4f72d3"
+  version = "v0.10.4"
 
 [[projects]]
   branch = "master"
+  digest = "1:b62c4f18ad6eb454ac5253e7791ded3d7867330015ca4b37b6336e57f514585e"
   name = "github.com/mitchellh/go-homedir"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
 
 [[projects]]
   branch = "master"
+  digest = "1:ffbb5e45e7e69a915767cc2fcff99525645afdfefffee72c551940e4b055e538"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "bb74f1db0675b241733089d5a1faa5dd8b0ef57b"
 
 [[projects]]
+  digest = "1:5cf3f025cbee5951a4ee961de067c8a89fc95a5adabead774f82822efabab121"
   name = "github.com/pkg/errors"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
   version = "v0.8.0"
 
 [[projects]]
+  digest = "1:cb24eec7a9478395847671abfbea162885f0be9c7ff6ef20b699dc20804ae1a4"
   name = "github.com/ryanuber/go-glob"
   packages = ["."]
+  pruneopts = "NUT"
   revision = "572520ed46dbddaed19ea3d9541bdd0494163693"
   version = "v0.1"
 
 [[projects]]
-  name = "github.com/sethgrid/pester"
-  packages = ["."]
-  revision = "03e26c9abbbf5accb8349790bf9f41bde09d72c3"
-  version = "1.0.0"
-
-[[projects]]
   branch = "master"
+  digest = "1:1461c8b0f368ce87cd87da867d7e126d2e28a210922b0f5c1ce9ded42639b110"
   name = "golang.org/x/net"
   packages = [
+    "context",
     "http/httpguts",
     "http2",
     "http2/hpack",
-    "idna"
+    "idna",
   ]
+  pruneopts = "NUT"
   revision = "2491c5de3490fced2f6cff376127c667efeed857"
 
 [[projects]]
+  digest = "1:e7071ed636b5422cc51c0e3a6cebc229d6c9fffc528814b519a980641422d619"
   name = "golang.org/x/text"
   packages = [
     "collate",
@@ -122,14 +153,26 @@
     "unicode/bidi",
     "unicode/cldr",
     "unicode/norm",
-    "unicode/rangetable"
+    "unicode/rangetable",
   ]
+  pruneopts = "NUT"
   revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
   version = "v0.3.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:c9e7a4b4d47c0ed205d257648b0e5b0440880cb728506e318f8ac7cd36270bc4"
+  name = "golang.org/x/time"
+  packages = ["rate"]
+  pruneopts = "NUT"
+  revision = "fbb02b2291d28baffd63558aa44b4b56f178d650"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "52531fee354b1f251cb634b3c3905267512c34b5532382a870e8bc84bcec2770"
+  input-imports = [
+    "github.com/hashicorp/vault/api",
+    "github.com/pkg/errors",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
